@@ -240,7 +240,6 @@ PRODUCT_PACKAGES += \
     libloc_api_v02 \
     libloc_ds_api \
     libmm-abl \
-    libqct_resampler \
     libtime_genoff \
     shutdownlistener \
     TimeService \

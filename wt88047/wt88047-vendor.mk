@@ -112,7 +112,6 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
@@ -130,9 +129,10 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech/wt88047/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/liblqe.so:system/vendor/lib/liblqe.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libmasc.so:system/vendor/lib/libmasc.so \
-    vendor/wingtech/wt88047/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
+    vendor/wingtech/wt88047/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
-	vendor/wingtech/wt88047/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
+    vendor/wingtech/wt88047/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
+    vendor/wingtech/wt88047/proprietary/vendor/lib/libmm-als.so:system/vendor/lib/libmm-als.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:system/vendor/lib/libmmcamera2_frame_algorithm.so \
@@ -159,6 +159,7 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libmmcamera_tuning.so:system/vendor/lib/libmmcamera_tuning.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:system/vendor/lib/libmmcamera_wavelet_lib.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
+    vendor/wingtech/wt88047/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
@@ -170,7 +171,6 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libprdrmdecrypt.so:system/vendor/lib/libprdrmdecrypt.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
@@ -186,16 +186,15 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
+    vendor/wingtech/wt88047/proprietary/vendor/lib/libril-qc-radioconfig.so:system/vendor/lib/libril-qc-radioconfig.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libtzplayready.so:system/vendor/lib/libtzplayready.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \

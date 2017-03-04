@@ -39,6 +39,8 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech/wt88047/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/wingtech/wt88047/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/wingtech/wt88047/proprietary/bin/vm_bms:system/bin/vm_bms \
+    vendor/wingtech/wt88047/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
+    vendor/wingtech/wt88047/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
     vendor/wingtech/wt88047/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
     vendor/wingtech/wt88047/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
     vendor/wingtech/wt88047/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
